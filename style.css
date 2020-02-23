@@ -31,22 +31,17 @@ body{
     z-index: 9;
     border-radius: 50%;
     margin: 25px;
-    animation: inside-c 1s linear infinite;
-    
-    animation-timing-function: cubic-bezier(0, 0.01, 0, 0.96);
-    
+    animation: inside-c 1s linear infinite;   
+    animation-timing-function: cubic-bezier(0, 0.01, 0, 0.96);   
 }
 
 @keyframes rotate{
     0%{
         transform: rotate(0deg);
-        
     }
-  
-    
+
     100%{
-        transform: rotate(360deg);
-        
+        transform: rotate(360deg); 
     }
 }
 
@@ -55,10 +50,8 @@ body{
         transform: scale(0);
     }
 
-
     100%{
-        transform: scale(1);
-        
+        transform: scale(1);   
     }
 }
 
